@@ -24,3 +24,5 @@ To build your own mobility seed, run the MobilityModel:
 In the MobilityModel folder, run __MainM__.py, with only a seed number as a command line argument. Running this model will take quite some time. The resulting mobility data can be found in the Seed_v3_X folder. To use this data for the transmission model, it needs to be copied, folder and all, to the root folder. This is done to keep these files separate so as to not overwrite accidentally. 
 
 The maps in the paper can be made by doing runs for each municipality, and analysing them in a similar way to the the Transmission_data_analysis.ipynb notebook. One needs to plot the data using the mapdf package. Further instructions are not included since doing these runs is computationally expensive.
+
+The data used to create the maps in the paper are stored in the figure_data/ folder.
